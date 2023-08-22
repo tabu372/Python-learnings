@@ -8,5 +8,17 @@
 >>> tabu_turtle.right(90)
 >>> tabu_turtle.forward(100)
 
+**calling it with function
+def square():
+    tabu_turtle.forward(100)
+    tabu_turtle.right(90)
+    tabu_turtle.forward(100)
+    tabu_turtle.right(90)
+    tabu_turtle.forward(100)
+    tabu_turtle.right(90)
+    tabu_turtle.forward(100)
+ **then calling it
+square()
+
 
 **for making a square and visualizing it by using Python learned from a clever programmer site**
