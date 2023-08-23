@@ -1,0 +1,29 @@
+import turtle
+
+tabu_turtle=turtle.Turtle()
+tabu_turtle.forward(100)
+tabu_turtle.right(90)
+tabu_turtle.forward(100)
+tabu_turtle.right(90)
+tabu_turtle.forward(100)
+tabu_turtle.right(90)
+tabu_turtle.forward(100)
+
+def square():
+    tabu_turtle.forward(100)
+    tabu_turtle.right(90)
+    tabu_turtle.forward(100)
+    tabu_turtle.right(90)
+    tabu_turtle.forward(100)
+    tabu_turtle.right(90)
+    tabu_turtle.forward(100)
+square()
+
+elephant_weight=3000
+ant_weight=0.1
+if elephant_weight>ant_weight:
+    square()
+else:
+    tabu_turtle.forward(100)
+
+    *** learned about how to use IF ELSE statement
